@@ -1,0 +1,7 @@
+<!--pages/login/login.wxml-->
+
+<view class="container">
+  <button style="width:80%;" bindtap="role1Taped">角色1 （首页，logs，我的）</button>
+  
+  <button style="width:80%;margin-top:50rpx;" bindtap="role2Taped">角色2（我的）</button>
+</view>

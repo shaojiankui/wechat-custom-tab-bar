@@ -1,0 +1,6 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+  <text>pages/my/my.wxml</text>
+
+  <button bindtap="logout">退出登录</button>
+</view>
