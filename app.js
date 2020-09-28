@@ -8,9 +8,8 @@ App({
 
 
     if (this.globalData.userInfo) {
-      wx.switchTab({
-        url: 'pages/hexiao/hexiao',
-      })
+      //从持久化中读取之前的角色信息。。省略
+      this.switchTabWithRole(this.globalData.userInfo.role)
     } else {
         wx.reLaunch({
             url: 'pages/login/login'
